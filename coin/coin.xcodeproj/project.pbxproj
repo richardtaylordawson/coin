@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C196BEC1DD1716F002A03AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C196BEB1DD1716F002A03AB /* main.m */; };
+		3C196BEF1DD1716F002A03AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C196BEE1DD1716F002A03AB /* AppDelegate.m */; };
+		3C196BF21DD1716F002A03AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C196BF11DD1716F002A03AB /* ViewController.m */; };
+		3C196BF71DD1716F002A03AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C196BF61DD1716F002A03AB /* Assets.xcassets */; };
+		3C196BFA1DD1716F002A03AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C196BF81DD1716F002A03AB /* LaunchScreen.storyboard */; };
+		3C19883D1DF409D500C6A78D /* reportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C19883C1DF409D500C6A78D /* reportsController.m */; };
+		3C1A72A71DF36AB200141EEF /* expenseViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A72A61DF36AB200141EEF /* expenseViewCell.xib */; };
+		3C1A72B11DF371FC00141EEF /* expenseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A72B01DF371FC00141EEF /* expenseViewCell.m */; };
+		3C1BD6CA1DEE932000BF4F51 /* deleteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BD6C91DEE932000BF4F51 /* deleteController.m */; };
+		3C1BD6CD1DEE96E900BF4F51 /* aboutPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BD6CC1DEE96E900BF4F51 /* aboutPage.m */; };
+		3C1BD6D01DEE9D4B00BF4F51 /* rateApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BD6CF1DEE9D4B00BF4F51 /* rateApplication.m */; };
+		3C1BF2491DEBE04100992496 /* homeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1BF2481DEBE04100992496 /* homeNavController.m */; };
+		3C1D8E9E1DEF4EA100C67978 /* addExpense.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D8E9D1DEF4EA100C67978 /* addExpense.m */; };
+		3C1F134C1DDAA22800E81673 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F134B1DDAA22800E81673 /* Launch.png */; };
+		3C1F13561DDABC9A00E81673 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F13551DDABC9A00E81673 /* 8bit.png */; };
+		3C1F13581DDAD60300E81673 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F13571DDAD60300E81673 /* password.png */; };
+		3C1F135A1DDAD60800E81673 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F13591DDAD60800E81673 /* user.png */; };
+		3C1F135C1DDAD60E00E81673 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F135B1DDAD60E00E81673 /* mail.png */; };
+		3C1F135E1DDADE8700E81673 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F135D1DDADE8700E81673 /* confirm.png */; };
+		3C1F13601DDAEA1800E81673 /* barChart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F135F1DDAEA1800E81673 /* barChart.png */; };
+		3C1F13621DDAEA1F00E81673 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F13611DDAEA1F00E81673 /* settings.png */; };
+		3C1F13641DDAEA2B00E81673 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F13631DDAEA2B00E81673 /* home.png */; };
+		3C214BB31E2A92B6006A5436 /* billsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C214BB21E2A92B6006A5436 /* billsTableController.m */; };
+		3C23088D1DECEDD4001DF4C1 /* forgotPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C23088C1DECEDD4001DF4C1 /* forgotPasswordController.m */; };
+		3C237EE11DEFDCDD007EC7C4 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C237EE01DEFDCDD007EC7C4 /* homeViewController.m */; };
+		3C2408591DF636DE0091815E /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2408581DF636DE0091815E /* checkmark.png */; };
+		3C24085C1DF646640091815E /* resetPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24085B1DF646640091815E /* resetPassword.m */; };
+		3C24269A1DEB77BA005C921C /* signOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2426991DEB77BA005C921C /* signOutController.m */; };
+		3C24269D1DEB7E32005C921C /* mainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24269C1DEB7E32005C921C /* mainTabController.m */; };
+		3C24C3F01E1F4E7E001C4C79 /* goal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C24C3EF1E1F4E7E001C4C79 /* goal.png */; };
+		3C24C3F21E1F57D7001C4C79 /* coinicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C24C3F11E1F57D7001C4C79 /* coinicon.png */; };
+		3C263C9A1E29C1C900CE27C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C263C991E29C1C900CE27C9 /* Main.storyboard */; };
+		3C28624A1DF1195F00AA98FF /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2862491DF1195F00AA98FF /* detailViewController.m */; };
+		3C4654D91DDBFCB10028A650 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C4654D81DDBFCB10028A650 /* bell.png */; };
+		3C6B2EC51E46654C003686A7 /* CoinAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6B2EC41E46654C003686A7 /* CoinAppIcon.png */; };
+		3CD0B0C21E29C3FC00A80AC6 /* fixedVariablesReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B0C11E29C3FC00A80AC6 /* fixedVariablesReport.m */; };
+		3CD0B0C51E29C71900A80AC6 /* variableReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0B0C41E29C71900A80AC6 /* variableReport.m */; };
+		3CEFB2D61E314BD0005C52C8 /* LoginPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFB2D51E314BD0005C52C8 /* LoginPageController.m */; };
+		D596B92C5CD5CB3F75CA7918 /* libPods-coin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0713C00A1E9542F858BC5D /* libPods-coin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0713C00A1E9542F858BC5D /* libPods-coin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C196BE71DD1716F002A03AB /* coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C196BEB1DD1716F002A03AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C196BED1DD1716F002A03AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C196BEE1DD1716F002A03AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C196BF01DD1716F002A03AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C196BF11DD1716F002A03AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C196BF61DD1716F002A03AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C196BF91DD1716F002A03AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C196BFB1DD1716F002A03AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C19883B1DF409C900C6A78D /* reportsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reportsController.h; sourceTree = "<group>"; };
+		3C19883C1DF409D500C6A78D /* reportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reportsController.m; sourceTree = "<group>"; };
+		3C1A72A61DF36AB200141EEF /* expenseViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = expenseViewCell.xib; sourceTree = "<group>"; };
+		3C1A72AF1DF371F100141EEF /* expenseViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = expenseViewCell.h; sourceTree = "<group>"; };
+		3C1A72B01DF371FC00141EEF /* expenseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expenseViewCell.m; sourceTree = "<group>"; };
+		3C1BD6C81DEE931400BF4F51 /* deleteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deleteController.h; sourceTree = "<group>"; };
+		3C1BD6C91DEE932000BF4F51 /* deleteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteController.m; sourceTree = "<group>"; };
+		3C1BD6CB1DEE96DB00BF4F51 /* aboutPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aboutPage.h; sourceTree = "<group>"; };
+		3C1BD6CC1DEE96E900BF4F51 /* aboutPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutPage.m; sourceTree = "<group>"; };
+		3C1BD6CE1DEE9D3C00BF4F51 /* rateApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rateApplication.h; sourceTree = "<group>"; };
+		3C1BD6CF1DEE9D4B00BF4F51 /* rateApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rateApplication.m; sourceTree = "<group>"; };
+		3C1BF2471DEBE03200992496 /* homeNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeNavController.h; sourceTree = "<group>"; };
+		3C1BF2481DEBE04100992496 /* homeNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeNavController.m; sourceTree = "<group>"; };
+		3C1D8E9C1DEF4E9400C67978 /* addExpense.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addExpense.h; sourceTree = "<group>"; };
+		3C1D8E9D1DEF4EA100C67978 /* addExpense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addExpense.m; sourceTree = "<group>"; };
+		3C1F134B1DDAA22800E81673 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Launch.png; path = ../../Launch.png; sourceTree = "<group>"; };
+		3C1F13551DDABC9A00E81673 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = ../../Icons/8bit.png; sourceTree = "<group>"; };
+		3C1F13571DDAD60300E81673 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = ../../Icons/password.png; sourceTree = "<group>"; };
+		3C1F13591DDAD60800E81673 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../../Icons/user.png; sourceTree = "<group>"; };
+		3C1F135B1DDAD60E00E81673 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = ../../Icons/mail.png; sourceTree = "<group>"; };
+		3C1F135D1DDADE8700E81673 /* confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confirm.png; path = ../../Icons/confirm.png; sourceTree = "<group>"; };
+		3C1F135F1DDAEA1800E81673 /* barChart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barChart.png; path = ../../Icons/barChart.png; sourceTree = "<group>"; };
+		3C1F13611DDAEA1F00E81673 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../Icons/settings.png; sourceTree = "<group>"; };
+		3C1F13631DDAEA2B00E81673 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../Icons/home.png; sourceTree = "<group>"; };
+		3C214BB11E2A92A5006A5436 /* billsTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = billsTableController.h; sourceTree = "<group>"; };
+		3C214BB21E2A92B6006A5436 /* billsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = billsTableController.m; sourceTree = "<group>"; };
+		3C23088B1DECEDC1001DF4C1 /* forgotPasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = forgotPasswordController.h; sourceTree = "<group>"; };
+		3C23088C1DECEDD4001DF4C1 /* forgotPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = forgotPasswordController.m; sourceTree = "<group>"; };
+		3C237EDF1DEFDCD0007EC7C4 /* homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		3C237EE01DEFDCDD007EC7C4 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		3C2408581DF636DE0091815E /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		3C24085A1DF646580091815E /* resetPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resetPassword.h; sourceTree = "<group>"; };
+		3C24085B1DF646640091815E /* resetPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resetPassword.m; sourceTree = "<group>"; };
+		3C2426951DEB741E005C921C /* LoginPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPageController.h; sourceTree = "<group>"; };
+		3C2426991DEB77BA005C921C /* signOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signOutController.m; sourceTree = "<group>"; };
+		3C24269B1DEB77DF005C921C /* signOutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = signOutController.h; sourceTree = "<group>"; };
+		3C24269C1DEB7E32005C921C /* mainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTabController.m; sourceTree = "<group>"; };
+		3C24269E1DEB7E4E005C921C /* mainTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainTabController.h; sourceTree = "<group>"; };
+		3C24C3EF1E1F4E7E001C4C79 /* goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goal.png; path = ../../Icons/goal.png; sourceTree = "<group>"; };
+		3C24C3F11E1F57D7001C4C79 /* coinicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinicon.png; path = ../../Icons/coinicon.png; sourceTree = "<group>"; };
+		3C263C991E29C1C900CE27C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C2862481DF1195100AA98FF /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		3C2862491DF1195F00AA98FF /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		3C4654D81DDBFCB10028A650 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bell.png; path = ../../Icons/bell.png; sourceTree = "<group>"; };
+		3C6B2EC41E46654C003686A7 /* CoinAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CoinAppIcon.png; path = ../../CoinAppIcon.png; sourceTree = "<group>"; };
+		3CD0B0C01E29C3EB00A80AC6 /* fixedVariablesReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fixedVariablesReport.h; sourceTree = "<group>"; };
+		3CD0B0C11E29C3FC00A80AC6 /* fixedVariablesReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fixedVariablesReport.m; sourceTree = "<group>"; };
+		3CD0B0C31E29C70400A80AC6 /* variableReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = variableReport.h; sourceTree = "<group>"; };
+		3CD0B0C41E29C71900A80AC6 /* variableReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = variableReport.m; sourceTree = "<group>"; };
+		3CEFB2D51E314BD0005C52C8 /* LoginPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPageController.m; sourceTree = "<group>"; };
+		4166FA465E1D74B6171159EF /* Pods-coin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coin.release.xcconfig"; path = "Pods/Target Support Files/Pods-coin/Pods-coin.release.xcconfig"; sourceTree = "<group>"; };
+		5A05CD1C79FD9525DD65474A /* Pods-coin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coin/Pods-coin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C196BE41DD1716E002A03AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D596B92C5CD5CB3F75CA7918 /* libPods-coin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10EC158431E4C1BA3D143428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A05CD1C79FD9525DD65474A /* Pods-coin.debug.xcconfig */,
+				4166FA465E1D74B6171159EF /* Pods-coin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C196BDE1DD1716E002A03AB = {
+			isa = PBXGroup;
+			children = (
+				3C196BE91DD1716F002A03AB /* coin */,
+				3C196BE81DD1716F002A03AB /* Products */,
+				10EC158431E4C1BA3D143428 /* Pods */,
+				FF778DF237B4CBDE334B1DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C196BE81DD1716F002A03AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C196BE71DD1716F002A03AB /* coin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C196BE91DD1716F002A03AB /* coin */ = {
+			isa = PBXGroup;
+			children = (
+				3C263C991E29C1C900CE27C9 /* Main.storyboard */,
+				3C214BB11E2A92A5006A5436 /* billsTableController.h */,
+				3C214BB21E2A92B6006A5436 /* billsTableController.m */,
+				3CD0B0C31E29C70400A80AC6 /* variableReport.h */,
+				3CD0B0C41E29C71900A80AC6 /* variableReport.m */,
+				3CD0B0C01E29C3EB00A80AC6 /* fixedVariablesReport.h */,
+				3CD0B0C11E29C3FC00A80AC6 /* fixedVariablesReport.m */,
+				3C196BED1DD1716F002A03AB /* AppDelegate.h */,
+				3C196BEE1DD1716F002A03AB /* AppDelegate.m */,
+				3C196BF01DD1716F002A03AB /* ViewController.h */,
+				3C196BF11DD1716F002A03AB /* ViewController.m */,
+				3C24085A1DF646580091815E /* resetPassword.h */,
+				3C24085B1DF646640091815E /* resetPassword.m */,
+				3C2862481DF1195100AA98FF /* detailViewController.h */,
+				3C2862491DF1195F00AA98FF /* detailViewController.m */,
+				3C237EDF1DEFDCD0007EC7C4 /* homeViewController.h */,
+				3C237EE01DEFDCDD007EC7C4 /* homeViewController.m */,
+				3C19883B1DF409C900C6A78D /* reportsController.h */,
+				3C19883C1DF409D500C6A78D /* reportsController.m */,
+				3C1A72AF1DF371F100141EEF /* expenseViewCell.h */,
+				3C1A72B01DF371FC00141EEF /* expenseViewCell.m */,
+				3C1A72A61DF36AB200141EEF /* expenseViewCell.xib */,
+				3C1D8E9C1DEF4E9400C67978 /* addExpense.h */,
+				3C1D8E9D1DEF4EA100C67978 /* addExpense.m */,
+				3C1BD6CE1DEE9D3C00BF4F51 /* rateApplication.h */,
+				3C1BD6CF1DEE9D4B00BF4F51 /* rateApplication.m */,
+				3C23088B1DECEDC1001DF4C1 /* forgotPasswordController.h */,
+				3C23088C1DECEDD4001DF4C1 /* forgotPasswordController.m */,
+				3C1BD6C81DEE931400BF4F51 /* deleteController.h */,
+				3C1BD6C91DEE932000BF4F51 /* deleteController.m */,
+				3C1BD6CB1DEE96DB00BF4F51 /* aboutPage.h */,
+				3C1BD6CC1DEE96E900BF4F51 /* aboutPage.m */,
+				3C1BF2471DEBE03200992496 /* homeNavController.h */,
+				3C1BF2481DEBE04100992496 /* homeNavController.m */,
+				3C2426951DEB741E005C921C /* LoginPageController.h */,
+				3CEFB2D51E314BD0005C52C8 /* LoginPageController.m */,
+				3C24269E1DEB7E4E005C921C /* mainTabController.h */,
+				3C24269C1DEB7E32005C921C /* mainTabController.m */,
+				3C24269B1DEB77DF005C921C /* signOutController.h */,
+				3C2426991DEB77BA005C921C /* signOutController.m */,
+				3C2408581DF636DE0091815E /* checkmark.png */,
+				3C6B2EC41E46654C003686A7 /* CoinAppIcon.png */,
+				3C1F13551DDABC9A00E81673 /* 8bit.png */,
+				3C1F135B1DDAD60E00E81673 /* mail.png */,
+				3C1F13611DDAEA1F00E81673 /* settings.png */,
+				3C1F135D1DDADE8700E81673 /* confirm.png */,
+				3C4654D81DDBFCB10028A650 /* bell.png */,
+				3C1F13571DDAD60300E81673 /* password.png */,
+				3C1F13631DDAEA2B00E81673 /* home.png */,
+				3C24C3EF1E1F4E7E001C4C79 /* goal.png */,
+				3C1F135F1DDAEA1800E81673 /* barChart.png */,
+				3C1F13591DDAD60800E81673 /* user.png */,
+				3C24C3F11E1F57D7001C4C79 /* coinicon.png */,
+				3C1F134B1DDAA22800E81673 /* Launch.png */,
+				3C196BF61DD1716F002A03AB /* Assets.xcassets */,
+				3C196BF81DD1716F002A03AB /* LaunchScreen.storyboard */,
+				3C196BFB1DD1716F002A03AB /* Info.plist */,
+				3C196BEA1DD1716F002A03AB /* Supporting Files */,
+			);
+			path = coin;
+			sourceTree = "<group>";
+		};
+		3C196BEA1DD1716F002A03AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C196BEB1DD1716F002A03AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF778DF237B4CBDE334B1DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0713C00A1E9542F858BC5D /* libPods-coin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C196BE61DD1716E002A03AB /* coin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C196BFE1DD1716F002A03AB /* Build configuration list for PBXNativeTarget "coin" */;
+			buildPhases = (
+				8662EF56EE1E63AD7F854C6C /* [CP] Check Pods Manifest.lock */,
+				3C196BE31DD1716E002A03AB /* Sources */,
+				3C196BE41DD1716E002A03AB /* Frameworks */,
+				3C196BE51DD1716E002A03AB /* Resources */,
+				40D68C41D473EE75D758957C /* [CP] Embed Pods Frameworks */,
+				721AC548461CD6026B977448 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coin;
+			productName = coin;
+			productReference = 3C196BE71DD1716F002A03AB /* coin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C196BDF1DD1716E002A03AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Richard Dawson";
+				TargetAttributes = {
+					3C196BE61DD1716E002A03AB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y6UNYR8EWA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C196BE21DD1716E002A03AB /* Build configuration list for PBXProject "coin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C196BDE1DD1716E002A03AB;
+			productRefGroup = 3C196BE81DD1716F002A03AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C196BE61DD1716E002A03AB /* coin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C196BE51DD1716E002A03AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1F13581DDAD60300E81673 /* password.png in Resources */,
+				3C6B2EC51E46654C003686A7 /* CoinAppIcon.png in Resources */,
+				3C1F134C1DDAA22800E81673 /* Launch.png in Resources */,
+				3C1F13561DDABC9A00E81673 /* 8bit.png in Resources */,
+				3C1F13621DDAEA1F00E81673 /* settings.png in Resources */,
+				3C4654D91DDBFCB10028A650 /* bell.png in Resources */,
+				3C196BFA1DD1716F002A03AB /* LaunchScreen.storyboard in Resources */,
+				3C1F13601DDAEA1800E81673 /* barChart.png in Resources */,
+				3C1F135C1DDAD60E00E81673 /* mail.png in Resources */,
+				3C24C3F21E1F57D7001C4C79 /* coinicon.png in Resources */,
+				3C263C9A1E29C1C900CE27C9 /* Main.storyboard in Resources */,
+				3C1F135A1DDAD60800E81673 /* user.png in Resources */,
+				3C24C3F01E1F4E7E001C4C79 /* goal.png in Resources */,
+				3C1F13641DDAEA2B00E81673 /* home.png in Resources */,
+				3C1F135E1DDADE8700E81673 /* confirm.png in Resources */,
+				3C1A72A71DF36AB200141EEF /* expenseViewCell.xib in Resources */,
+				3C196BF71DD1716F002A03AB /* Assets.xcassets in Resources */,
+				3C2408591DF636DE0091815E /* checkmark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40D68C41D473EE75D758957C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coin/Pods-coin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721AC548461CD6026B977448 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coin/Pods-coin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8662EF56EE1E63AD7F854C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C196BE31DD1716E002A03AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24085C1DF646640091815E /* resetPassword.m in Sources */,
+				3C196BF21DD1716F002A03AB /* ViewController.m in Sources */,
+				3C237EE11DEFDCDD007EC7C4 /* homeViewController.m in Sources */,
+				3C1BF2491DEBE04100992496 /* homeNavController.m in Sources */,
+				3C19883D1DF409D500C6A78D /* reportsController.m in Sources */,
+				3C196BEF1DD1716F002A03AB /* AppDelegate.m in Sources */,
+				3C24269D1DEB7E32005C921C /* mainTabController.m in Sources */,
+				3C214BB31E2A92B6006A5436 /* billsTableController.m in Sources */,
+				3C23088D1DECEDD4001DF4C1 /* forgotPasswordController.m in Sources */,
+				3C1BD6D01DEE9D4B00BF4F51 /* rateApplication.m in Sources */,
+				3CD0B0C21E29C3FC00A80AC6 /* fixedVariablesReport.m in Sources */,
+				3C28624A1DF1195F00AA98FF /* detailViewController.m in Sources */,
+				3CD0B0C51E29C71900A80AC6 /* variableReport.m in Sources */,
+				3C24269A1DEB77BA005C921C /* signOutController.m in Sources */,
+				3CEFB2D61E314BD0005C52C8 /* LoginPageController.m in Sources */,
+				3C1D8E9E1DEF4EA100C67978 /* addExpense.m in Sources */,
+				3C1BD6CA1DEE932000BF4F51 /* deleteController.m in Sources */,
+				3C1BD6CD1DEE96E900BF4F51 /* aboutPage.m in Sources */,
+				3C196BEC1DD1716F002A03AB /* main.m in Sources */,
+				3C1A72B11DF371FC00141EEF /* expenseViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C196BF81DD1716F002A03AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C196BF91DD1716F002A03AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C196BFC1DD1716F002A03AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C196BFD1DD1716F002A03AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C196BFF1DD1716F002A03AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A05CD1C79FD9525DD65474A /* Pods-coin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = Y6UNYR8EWA;
+				INFOPLIST_FILE = coin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Richard-Dawson.coin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C196C001DD1716F002A03AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4166FA465E1D74B6171159EF /* Pods-coin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				DEVELOPMENT_TEAM = Y6UNYR8EWA;
+				INFOPLIST_FILE = coin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Richard-Dawson.coin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C196BE21DD1716E002A03AB /* Build configuration list for PBXProject "coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C196BFC1DD1716F002A03AB /* Debug */,
+				3C196BFD1DD1716F002A03AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C196BFE1DD1716F002A03AB /* Build configuration list for PBXNativeTarget "coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C196BFF1DD1716F002A03AB /* Debug */,
+				3C196C001DD1716F002A03AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C196BDF1DD1716E002A03AB /* Project object */;
+}
