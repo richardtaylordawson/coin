@@ -25,7 +25,7 @@ Currently unavailable
 ## Status
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/commits/master)
 [![GitHub Search Hit Counter](https://img.shields.io/github/search/richardtaylordawson/coin/goto.svg)](https://github.com/richardtaylordawson/coin/)
-[![Codacy Grade Badge](https://api.codacy.com/project/badge/Grade/02ee35b7c3e14b6da802677e73fbdb32)](https://www.codacy.com/app/richardtaylordawson/coin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=richardtaylordawson/coin&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d383f49596954f70b4966304ac664882)](https://www.codacy.com/app/richardtaylordawson/coin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=richardtaylordawson/coin&amp;utm_campaign=Badge_Grade)
 [![GitHub Repo Size in Bytes](https://img.shields.io/github/repo-size/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/)
 [![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/)
 [![GitHub Top Language](https://img.shields.io/github/languages/top/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/)
