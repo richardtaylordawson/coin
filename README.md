@@ -10,18 +10,6 @@
   </p>
 </p>
 
-## Creator
-<a href="https://github.com/richardtaylordawson/">
-  <img src="https://twitter.com/richard_codes/profile_image?size=original" alt="Richard's image" width=72 height=72>
-</a>
-
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=@richard_codes)
-[![Twitter Follow](https://img.shields.io/twitter/follow/richard_codes.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=richard_codes)
-[![GitHub followers](https://img.shields.io/github/followers/richardtaylordawson.svg?label=Follow&style=social)](https://github.com/richardtaylordawson/)
-
-## View Project
-Currently unavailable
-
 ## Status
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/commits/master)
 [![GitHub Search Hit Counter](https://img.shields.io/github/search/richardtaylordawson/coin/goto.svg)](https://github.com/richardtaylordawson/coin/)
@@ -31,3 +19,5 @@ Currently unavailable
 [![GitHub Top Language](https://img.shields.io/github/languages/top/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/)
 [![GitHub Language Count](https://img.shields.io/github/languages/count/richardtaylordawson/coin.svg)](https://github.com/richardtaylordawson/coin/)
 
+## View Project
+Currently unavailable
